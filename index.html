@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CTF // ACERTIJO</title>
+  <title>TOPSECRET</title>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet"/>
   <style>
     :root {
@@ -484,12 +484,12 @@
 
     <div class="divider"><span class="divider-txt">// VERIFY //</span></div>
 
-    <div class="input-label">INTRODUCE LA FLAG</div>
+    <div class="input-label">¡Felices Juegos del Hambre y que la suerte esté siempre de su lado!</div>
     <div class="input-wrap">
       <input
         type="text"
         id="flag-input"
-        placeholder="@flag{...}"
+        placeholder="TOPSECRET..."
         autocomplete="off"
         spellcheck="false"
       />
@@ -497,7 +497,7 @@
 
     <button id="submit-btn" onclick="checkFlag()">[ EJECUTAR VERIFICACIÓN ]</button>
 
-    <div id="error-msg">// ERROR: flag incorrecta. acceso denegado.</div>
+    <div id="error-msg">// ERROR: crendencial incorrecta. acceso denegado.</div>
   </div>
 
   <div class="status-line">
@@ -518,11 +518,11 @@
       <div class="prize-placeholder">🍫</div>
     </div>
     <h2 class="success-title">ACCESO CONCEDIDO</h2>
-    <p class="success-sub">// flag correcta, mi amor ♥</p>
+    <p class="success-sub">// flag correcta amoor ♥</p>
     <p class="success-msg">
-      Has descifrado cada capa del misterio.<br/>
+      Has descifrado cada capa del arduo misterio.<br/>
       Tu premio te está esperando... 🍫<br/><br/>
-      <strong>¡Feliz cumpleaños, Diana!</strong> 🎂
+      <strong>¡Feliz cumpleaños amor!</strong> 🎂
     </p>
   </div>
 </div>
@@ -601,9 +601,9 @@
         document.head.appendChild(s);
       });
 
-      emailjs.init({ publicKey: 'TU_PUBLIC_KEY' }); // <-- reemplaza con tu Public Key de EmailJS
+      emailjs.init({ publicKey: '1lWeGEUF9WKEQdkjF' }); 
 
-      await emailjs.send('TU_SERVICE_ID', 'TU_TEMPLATE_ID', { // <-- reemplaza con tus IDs
+      await emailjs.send('service_ht5but6', 'template_i0kdoj9', { // <-- reemplaza con tus IDs
         to_email:   'samu232007@gmail.com',
         subject:    '🎉 Diana resolvió el acertijo',
         message:    '¡Diana ha descifrado el acertijo y encontrado la flag correcta! 🍫🎂',
